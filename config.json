@@ -1,4 +1,4 @@
 {
-    "token": ""
-  }
-  
+  "token": "YOUR_BOT_TOKEN", 
+  "botId": "Your_BOT_ID"  
+}

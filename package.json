@@ -3,7 +3,7 @@
     "clipboardy": "^4.0.0",
     "discord.js": "^14.16.3"
   },
-  "name": "dmall",
+  "name": "dmall_by_t4a",
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
@@ -11,7 +11,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
+  "author": "t4a",
   "license": "ISC",
   "description": ""
 }

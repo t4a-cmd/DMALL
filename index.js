@@ -100,9 +100,9 @@ async function dmAllMembers(guildId) {
 
 // Fonction pour copier l'URL d'invitation dans le presse-papiers
 function copyInviteLink() {
-    const inviteLink = 'https://discord.com/oauth2/authorize?client_id=1295486839146152041&permissions=0&integration_type=0&scope=bot';
+    const inviteLink = `https://discord.com/oauth2/authorize?client_id=${config.botId}&permissions=0&scope=bot`;
     clipboardy.writeSync(inviteLink); // Copier l'URL dans le presse-papiers
-    console.log('Lien d\'invitation copié dans le presse-papiers :', inviteLink);
+    console.log('Lien d\'invitation copié dans le presse-papiers')
 }
 
 // Se connecter au bot avec le token depuis config.json
